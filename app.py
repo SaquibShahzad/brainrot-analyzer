@@ -19,8 +19,11 @@ def get_youtube_history():
         {"title": "Video B", "category": "Gaming", "publishedAt": "2023-09-20T15:30:00Z"},
         {"title": "Video C", "category": "Education", "publishedAt": "2023-09-25T09:45:00Z"},
         {"title": "Video D", "category": "Music", "publishedAt": "2023-09-28T16:20:00Z"},
-        {"title": "Video E", "category": "Gaming", "publishedAt": "2023-09-30T18:05:00Z"}
-        # ... additional simulated records ...
+        {"title": "Video E", "category": "Gaming", "publishedAt": "2023-09-30T18:05:00Z"},
+        {"title": "Video F", "category": "Comedy", "publishedAt": "2023-09-10T11:00:00Z"},
+        {"title": "Video G", "category": "News", "publishedAt": "2023-09-18T14:15:00Z"},
+        {"title": "Video H", "category": "Sports", "publishedAt": "2023-09-22T19:40:00Z"},
+        {"title": "Video I", "category": "Documentary", "publishedAt": "2023-09-27T08:50:00Z"}
     ]
     one_month_ago = datetime.datetime.utcnow() - datetime.timedelta(days=30)
     filtered_history = [
