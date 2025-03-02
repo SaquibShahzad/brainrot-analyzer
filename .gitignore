@@ -1,0 +1,24 @@
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders
+venv/
+.venv/
+ENV/
+env.bak/
+
+# macOS specific files
+.DS_Store
+
+# Ignore log files and local config
+*.log
+*.pot
+*.pyc
+
+# Ignore Plotly generated files (if any)
+*.html
+
+# Ignore editor folders
+.vscode/
+.idea/
