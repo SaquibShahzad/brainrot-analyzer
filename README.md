@@ -1,6 +1,7 @@
 # YouTube Browsing History Dashboard
 
 This project is a simple dashboard built with Dash and Plotly that visualizes YouTube browsing history over the last month by categorizing the videos.
+![alt text](image.png)
 
 ## Overview
 
